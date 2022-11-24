@@ -6,7 +6,6 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
@@ -46,7 +45,6 @@
 }
 
 .code {
-  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -60,7 +58,8 @@
 
 .content_wrapper {
   background: #fff;
-  margin-top: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   padding: 16px;
   border-radius: 5px;
   border: 1px solid #e6e7e9;
@@ -132,9 +131,6 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
-  .footer {
-    border-color: #222;
-  }
   .code {
     background: #111;
   }
