@@ -1,0 +1,26 @@
+.form_input {
+    padding: 4px 16px;
+    border: 1px solid #c6c6c6;
+    transition: ease-in-out 1.4s linear;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+.form_input:first {
+    margin-left: 0px;
+}
+
+.form_input:hover,  .form_input:focus{
+    border: 1px solid #3f73e4;
+}
+
+.form_button {
+    padding: 4px 16px;
+    background: #3f73e4;
+    border-radius: 5px;
+    margin-left: 4px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

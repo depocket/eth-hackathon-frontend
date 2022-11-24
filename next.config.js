@@ -5,12 +5,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'app.depocket.com',
-        port: '',
         pathname: '/icons/**',
       }
     ]
   },
-  reactStrictMode: true,
+  reactStrictMode: false,
 }
 
 module.exports = nextConfig

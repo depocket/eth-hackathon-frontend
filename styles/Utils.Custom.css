@@ -1,0 +1,7 @@
+.react-datepicker-wrapper{
+    width: auto !important;
+}
+
+.react-datepicker__tab-loop {
+    display: inline-block;
+}

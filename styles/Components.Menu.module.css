@@ -1,0 +1,35 @@
+.tabs {
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs .wrapper {
+    background: #f4f3f1;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.tabs .item {
+    background: #fff;
+    color: rgb(35, 35, 35);
+    padding: 10px 20px;
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #f4f3f1;
+    box-shadow: 0px 2px 4px rgba(22, 22, 26, 0.06);;
+}
+
+.tabs .item:focus, .item:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.tabs .item:active{
+    border: none;
+}
