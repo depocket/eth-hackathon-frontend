@@ -104,8 +104,8 @@ export default function TokenFlow(props){
         method: "POST",
         body: JSON.stringify({
           "depth": depth,
-          "token": walletAddress,
-          "address": tokenAddress,
+          "address": walletAddress,
+          "token": tokenAddress,
           "from": startDate.toISOString(),
           "to": endDate.toISOString()
         })
