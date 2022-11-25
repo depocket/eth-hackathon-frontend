@@ -31,11 +31,9 @@ export default function RelationWallet(props){
         roundness: 0.5
       }
     },
-    height: "600px",
-    width: "1200px",
-    physics: {
-      stabilization: true,
-    },
+    height: "700px",
+    width: "1800px",
+    physics: {barnesHut: {gravitationalConstant: -5000, springConstant: 0.001, springLength: 100}},
     interaction: { 
       dragView: true,
       hover: true,
